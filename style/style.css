@@ -1,0 +1,134 @@
+/* inter font */
+.open-s ans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Merriweather */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* share-color */
+.share-color{
+  color: #FF0000;
+
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* banner section start  */
+.banner{
+    max-width: 1320px;
+    height: 600px;
+    background-image:linear-gradient(rgba(7, 2, 17, 0.59)), url(../images/Banner\ Image.png);
+    margin: 40px auto;
+    background-size: cover;
+    display: flex; /*jastify cintent kag korrar jorno */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;/*aliment block korer jorno */
+    text-align: center;
+    color: #ffff;
+  
+
+}
+.banner-content h1{
+  font-size: 72px;
+  margin: 0;
+}
+.banner-content h3{
+  font-size: 32px;
+  margin-bottom: 0;
+  
+}
+/* banner section end */
+
+
+/* hero section start */
+.hero-content{
+  text-align: center;
+  margin: 100px;
+  line-height: 1.2px;
+ 
+}
+
+.hero-content h1{
+  font-size: 88px;
+  font-weight: bold;
+
+}
+.banner-content p{
+  font-size: medium;
+}
+.hero-content h2{
+  font-weight: bold;
+  color: rgba(7, 2, 17, 1);
+}
+
+/* hero section end */
+
+/* welcome section start */
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1320px;
+  height: 600px;
+  background-image: linear-gradient(to right, #070211, #ffff);
+  margin:0 auto;
+  
+}
+.welcome-content{
+   margin: 30px 100px 100px 150px;
+}
+
+  
+.welcome-title{
+  color: #ffff;
+  font-size: 64px;
+}
+.welcome-description{
+  font-size: 18px;
+  color: #ffff;
+}
+/* welcome section end */
+
+/* place-section start */
+.place{
+  text-align: center;
+  max-width: 1320px;
+  height: 420px;
+  background-image: linear-gradient(to bottom , #ff000091, #ffff);
+  margin: 120px auto;
+  font-size: 32px;
+  font-weight: 600px;
+  display: flex; /*jastify cintent kag korrar jorno */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;/*aliment block korer jorno */
+  line-height: 0.5;
+}
+
+.my-button{
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FF0000;
+  color: #ffff;
+}
+
+
+/* place-section end */
